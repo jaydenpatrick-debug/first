@@ -68,7 +68,7 @@ url = 'https://raw.githubusercontent.com/karpathy/char-rnn/master/data/tinyshake
 with urllib.request.urlopen(url) as response:
     text = response.read().decode('utf-8')
 
-print(f"✓ Loaded {len(text):,} characters")
+print(f" Loaded {len(text):,} characters")
 print(f"\nFirst 500 characters:")
 print("-" * 70)
 print(text[:500])
